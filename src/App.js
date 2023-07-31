@@ -1,27 +1,40 @@
-import logo from './logo.svg';
 import './App.css';
-import React from 'react'
+import React, { useState } from 'react';
+import Homepage from './components/Pages/Homepage';
+import Aboutme from './components/Pages/Aboutme';
+import Portfolio from './components/Pages/Projects';
+import Resume from './components/Pages/Resume';
+import Contact from './components/Pages/Contact';
+import Header from './components/Header';
+import Footer from './components/Footer'
 
-function App() {
-  return (
-    <div className="App">
-      <h1>This is Wenbo Ni's Web Development Portfolio</h1>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+    const [currentPage, setCurrentPage] = useState("Homepage")
+    const handlePageChange = (page) => {
+        if (page === "Homepage") {
+            return <Homepage />
+        }
+        else if (page === "Aboutme") {
+            return <Aboutme />
+        }
+        else if (page === "Portfolio") {
+            return <Portfolio />
+        }
+        else if (page === "Resume") {
+            return <Resume />
+        }
+        else if (page === "Contact") {
+            return <Contact />
+        }
+
+    }
+    return (
+        <>
+        <Header setCurrentPage = {setCurrentPage} currentPage = {currentPage}/>
+        {handlePageChange(currentPage)}
+        <Footer />
+        </>
+    )
 }
 
 export default App;
