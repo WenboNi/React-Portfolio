@@ -1,5 +1,4 @@
 import React from 'react';
-import bg from '../assets/Background.jpg'
 
 export default function Resume() {
     const resumeButtonStyle = {
@@ -32,8 +31,7 @@ export default function Resume() {
     return (
       <div>
         <div id="About " className=" relative ">
-            <img src={bg} alt="background" className="w-full h-screen blur-[4px]" />
-            <div className=" box m-16 sm:m-46 absolute top-10 xs:top-45 left-10 right-10 bottom-26 sm:bottom-26 bg-white  flex items-center justify-center">
+            <div className="box m-16 sm:m-46 absolute top-10 xs:top-45 left-10 right-10 bottom-26 sm:bottom-26 bg-white  flex items-center justify-center">
         
             <div className="p-4 m-6">
             <h2 className="text-3xl flex justify-center font-bold mb-10">Resume/CV</h2>

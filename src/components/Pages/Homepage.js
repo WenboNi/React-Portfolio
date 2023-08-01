@@ -21,7 +21,7 @@ export default function Homepage() {
             </div>
             <div className="mt-4 sm:mt-0 sm:ml-4 flex-grow-0 flex items-center justify-center sm:justify-end">
                 <img
-                    className="max-w-sm max-h-sm"
+                    className="h-25 w-25"
                     src={Myphoto}
                     alt="headshot"
                 />

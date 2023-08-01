@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 export default function NavBar({ setCurrentPage, currentPage }) {
 
-  console.log(setCurrentPage)
+//   console.log(setCurrentPage)
   return (
     <nav style={{ display: 'inline-block' }}>
       <ul className="nav-links">

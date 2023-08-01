@@ -22,5 +22,7 @@ export default function Header(props) {
   
   const nameStyle = {
     margin: 0,
+    fontWeight: 'bold',
+    color: '#fff',
   };
   
