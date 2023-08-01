@@ -4,7 +4,7 @@ import Homepage from './components/Pages/Homepage';
 import Aboutme from './components/Pages/Aboutme';
 import Portfolio from './components/Pages/Projects';
 import Resume from './components/Pages/Resume';
-import Contact from './components/Pages/Contact';
+import Contact from './components/Pages/ContactForm/Contact';
 import Header from './components/Header';
 import Footer from './components/Footer'
 

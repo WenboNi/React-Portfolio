@@ -7,7 +7,7 @@ const Footer = () => {
 
   return (
     <footer style={{
-      position: 'fixed',
+      position: 'relative',
       bottom: 0,
       left: 0,
       width: '100%',
@@ -15,22 +15,21 @@ const Footer = () => {
       color: '#fff',
       padding: '20px 0',
       textAlign: 'center',
+      height: '10%',
     }}>
       <div style={{
         maxWidth: '1200px',
-        Height: '200px',
         margin: '0 auto',
       }}>
-        {/* Add your footer content here */}
-        <div className="flex justify-center">
-          <a href={githubUrl} className="mr-1">
+        <div className="flex space-x-4 justify-center sm:justify-center">
+          <a href={githubUrl} style={{ fontSize: '30px', margin: '0 20px'}}>
             <i className="fab fa-github" />
           </a>
-          <a href={linkedinUrl} className="mr-4">
+          <a href={linkedinUrl} style={{ fontSize: '30px', margin: '0 20px'}}>
             <i className="fab fa-linkedin" />
           </a>
-          <a href={facebookUrl}>
-            <i className="fab fa-stack-overflow" />
+          <a href={facebookUrl} style={{ fontSize: '30px', margin: '0 20px'}}>
+            <i className="fab fa-facebook" />
           </a>
         </div>
       </div>
