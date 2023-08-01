@@ -7,7 +7,7 @@ Welcome to my web development portfolio! This project showcases my latest web de
 As a web developer, I understand the importance of presenting my work in a way that reflects the latest technologies and showcases my abilities. This is a personal coding portfolio that is built using React, making it a modern and dynamic single-page application. It allows potential employers and other developers to assess my expertise and view my deployed projects.
 
 ## Deployment
-This portfolio is deployed using GitHub Pages, making it accessible to everyone. You can visit the deployed portfolio at [https://wenboni.github.io/React-Portfolio/]
+This portfolio is deployed using GitHub Pages, making it accessible to everyone. You can visit the deployed portfolio at [[https://wenboni.github.io/React-Portfolio/](https://wenboni-react-portfolio-c672d4c4887f.herokuapp.com/)]
 
 ## Features
 -Single-page application built with React for smooth navigation without page reloads.
