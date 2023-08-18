@@ -5,6 +5,7 @@ import EventFinderr from '../assets/EventFinderr.png';
 import WeatherDashBoard from '../assets/WeatherDashBoard.jpg';
 import JavaScriptQuiz from '../assets/Javascript quiz.jpg';
 import SocialMediaAPI from '../assets/socialmediaAPI.jpg'
+import MusicApp from '../assets/Spotify_player.png';
 
 const projects = [
     {
@@ -43,6 +44,12 @@ const projects = [
         imageUrl: SocialMediaAPI,
         siteUrl: 'https://github.com/WenboNi/Social-Media-API',
     },
+    {
+        name: 'Music-App',
+        description: 'Music Streaming App for Users to Make Friends, Comment, and Chat About Their Favourite Songs',
+        imageUrl: MusicApp,
+        siteUrl: 'https://github.com/WenboNi/Social-Media-API',
+  },
   ];
   
   const Portfolio = () => {
